@@ -1,0 +1,82 @@
+.percentagebar{
+	display: inline-block;
+	position: relative;
+	width: 300px;
+	height:40px;
+	overflow: hidden;
+	border:1px solid #e5e5e5;;
+	background-color: #123456;
+	box-shadow: inset 0px -1px 2px rgba(0, 0, 0, 0.1);
+	/*-webkit-transition: width 0.8s ease-in-out;*/
+          transition: width 0.8s ease-in-out;
+    
+	/*	  background: #42e298;
+	background: -moz-linear-gradient(top, #42e298 0%, #26c0b6 100%); 
+	background: -webkit-linear-gradient(top, #42e298 0%,#26c0b6 100%);  
+	background: linear-gradient(to bottom, #42e298 0%,#26c0b6 100%);  
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#42e298', endColorstr='#26c0b6',GradientType=0 ); */
+	/*-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);*/
+}
+
+.filler{
+	display: inline-block;
+	position: relative;
+	height:100%;
+	/*width:100%;*/
+	border-radius: inherit;
+	/*-webkit-transition: width 0.8s ease-in-out;*/
+	transition: width 0.8s ease-in-out;
+	z-index: 1;
+}
+.label{
+	/*display: inline-block;*/
+	/*position: relative;*/
+	height:100%;
+	/*vertical-align: middle;*/
+	padding: 5px;
+	text-align: center;
+	color:white;
+	font-size:1vw;
+	/*z-index: 1;*/
+	/*-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);*/
+
+}
+.remainder{
+	display: inline-block;
+	position: relative;
+	/*width: 30px;*/
+	height:100%;
+	/*vertical-align: middle;*/
+	padding: 5px;
+	float: right;
+	color:white;
+	font-size:1vw;
+	/*z-index: 1;*/
+	/*-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);*/
+
+}
+
+
+.cu_hd1, .cu_hd2, .cu_hd3, .cu_hd4, .cu_hd5, .cu_hd6{    margin: 0px;
+    padding: 0px !important; line-height: normal;}
+.cu_hd1 { font-size:16px; color:#000;}
+.cu_hd2 { font-size:12px; color:#888;}
+.cu_hd3 { font-size: 22px;color: #222;}
+.cu_hd4 { font-size:16px; color:#666;}
+.cu_hd5 { font-size:14px; color:#888;}
+.cu_hd6 { font-size:11px; color:#888;}
+.cu_hd7 { font-size:18px; color:#666;}
+.cu_hd8 { font-size:37px; color:#000;}
+.cu_hd9 { font-size:50px; color: #222;}
+.cu_hd10 { font-size:20px; color:#888;}
+.cu_hd11 { font-size:14px; color:#222;}
+.cu_hd12 { font-size:11px; color:#888;}
