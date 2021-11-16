@@ -1,12 +1,12 @@
 import React,{useState} from 'react';
 import PercentageBar from './PercentageBar/PercentageBar';
-import Table from 'react-bootstrap/Table';
+//import Table from 'react-bootstrap/Table';
 import {Modal,Form} from 'react-bootstrap';
 import { Picky } from 'react-picky';
 import 'react-picky/dist/picky.css';
-import FusionCharts from "fusioncharts";
-import TimeSeries from "fusioncharts/fusioncharts.timeseries";
-import ReactFC from "fusioncharts";
+//import FusionCharts from "fusioncharts";
+//import TimeSeries from "fusioncharts/fusioncharts.timeseries";
+//import ReactFC from "fusioncharts";
 // import {reportingGraph} from '../CommonFunctions/DataSourceConfigs';
 import {testFirstScreenValidation,testSecondScreenValidation,testThirdScreenValidation,testFourthScreenValidation} from './ScreenValidations';
 
@@ -30,7 +30,7 @@ const OEEReporting = () =>
     const [lineid,setLineid] =useState("Select Line ID");
     const [partid,setPartid] =useState("Select Part ID");
     const [step,setStep] = useState(4);
-    const [alertModal,setAlertModal] = useState(true);
+    const [alertModal,setAlertModal] = useState(false);
     
 
     function nextScreen(){
